@@ -35,8 +35,8 @@ function getAdvancedFileList() {
 }
 
 module.exports = defineConfig({
+  projectId: 'ehy4vj',
   e2e: {
-    projectId: "rtqkk8",
     baseUrl: 'https://editor.mitim-s.com',
     supportFile: false,
     specPattern: "cypress/e2e/**/*.{cy,js,jsx,ts,tsx,feature}",
